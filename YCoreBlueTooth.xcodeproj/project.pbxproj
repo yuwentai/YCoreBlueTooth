@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		792B8DAA1DF2717700B200C0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 792B8DA91DF2717700B200C0 /* main.m */; };
+		792B8DAD1DF2717700B200C0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 792B8DAC1DF2717700B200C0 /* AppDelegate.m */; };
+		792B8DB01DF2717700B200C0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 792B8DAF1DF2717700B200C0 /* ViewController.m */; };
+		792B8DB31DF2717800B200C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 792B8DB11DF2717800B200C0 /* Main.storyboard */; };
+		792B8DB51DF2717800B200C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 792B8DB41DF2717800B200C0 /* Assets.xcassets */; };
+		792B8DB81DF2717800B200C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 792B8DB61DF2717800B200C0 /* LaunchScreen.storyboard */; };
+		792B8DC31DF2717800B200C0 /* YCoreBlueToothTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 792B8DC21DF2717800B200C0 /* YCoreBlueToothTests.m */; };
+		792B8DCE1DF2717800B200C0 /* YCoreBlueToothUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 792B8DCD1DF2717800B200C0 /* YCoreBlueToothUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		792B8DBF1DF2717800B200C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 792B8D9D1DF2717700B200C0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 792B8DA41DF2717700B200C0;
+			remoteInfo = YCoreBlueTooth;
+		};
+		792B8DCA1DF2717800B200C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 792B8D9D1DF2717700B200C0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 792B8DA41DF2717700B200C0;
+			remoteInfo = YCoreBlueTooth;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		792B8DA51DF2717700B200C0 /* YCoreBlueTooth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YCoreBlueTooth.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		792B8DA91DF2717700B200C0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		792B8DAB1DF2717700B200C0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		792B8DAC1DF2717700B200C0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		792B8DAE1DF2717700B200C0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		792B8DAF1DF2717700B200C0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		792B8DB21DF2717800B200C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		792B8DB41DF2717800B200C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		792B8DB71DF2717800B200C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		792B8DB91DF2717800B200C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		792B8DBE1DF2717800B200C0 /* YCoreBlueToothTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YCoreBlueToothTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		792B8DC21DF2717800B200C0 /* YCoreBlueToothTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YCoreBlueToothTests.m; sourceTree = "<group>"; };
+		792B8DC41DF2717800B200C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		792B8DC91DF2717800B200C0 /* YCoreBlueToothUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YCoreBlueToothUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		792B8DCD1DF2717800B200C0 /* YCoreBlueToothUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YCoreBlueToothUITests.m; sourceTree = "<group>"; };
+		792B8DCF1DF2717800B200C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		792B8DA21DF2717700B200C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		792B8DBB1DF2717800B200C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		792B8DC61DF2717800B200C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		792B8D9C1DF2717700B200C0 = {
+			isa = PBXGroup;
+			children = (
+				792B8DA71DF2717700B200C0 /* YCoreBlueTooth */,
+				792B8DC11DF2717800B200C0 /* YCoreBlueToothTests */,
+				792B8DCC1DF2717800B200C0 /* YCoreBlueToothUITests */,
+				792B8DA61DF2717700B200C0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		792B8DA61DF2717700B200C0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				792B8DA51DF2717700B200C0 /* YCoreBlueTooth.app */,
+				792B8DBE1DF2717800B200C0 /* YCoreBlueToothTests.xctest */,
+				792B8DC91DF2717800B200C0 /* YCoreBlueToothUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		792B8DA71DF2717700B200C0 /* YCoreBlueTooth */ = {
+			isa = PBXGroup;
+			children = (
+				792B8DAB1DF2717700B200C0 /* AppDelegate.h */,
+				792B8DAC1DF2717700B200C0 /* AppDelegate.m */,
+				792B8DAE1DF2717700B200C0 /* ViewController.h */,
+				792B8DAF1DF2717700B200C0 /* ViewController.m */,
+				792B8DB11DF2717800B200C0 /* Main.storyboard */,
+				792B8DB41DF2717800B200C0 /* Assets.xcassets */,
+				792B8DB61DF2717800B200C0 /* LaunchScreen.storyboard */,
+				792B8DB91DF2717800B200C0 /* Info.plist */,
+				792B8DA81DF2717700B200C0 /* Supporting Files */,
+			);
+			path = YCoreBlueTooth;
+			sourceTree = "<group>";
+		};
+		792B8DA81DF2717700B200C0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				792B8DA91DF2717700B200C0 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		792B8DC11DF2717800B200C0 /* YCoreBlueToothTests */ = {
+			isa = PBXGroup;
+			children = (
+				792B8DC21DF2717800B200C0 /* YCoreBlueToothTests.m */,
+				792B8DC41DF2717800B200C0 /* Info.plist */,
+			);
+			path = YCoreBlueToothTests;
+			sourceTree = "<group>";
+		};
+		792B8DCC1DF2717800B200C0 /* YCoreBlueToothUITests */ = {
+			isa = PBXGroup;
+			children = (
+				792B8DCD1DF2717800B200C0 /* YCoreBlueToothUITests.m */,
+				792B8DCF1DF2717800B200C0 /* Info.plist */,
+			);
+			path = YCoreBlueToothUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		792B8DA41DF2717700B200C0 /* YCoreBlueTooth */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 792B8DD21DF2717800B200C0 /* Build configuration list for PBXNativeTarget "YCoreBlueTooth" */;
+			buildPhases = (
+				792B8DA11DF2717700B200C0 /* Sources */,
+				792B8DA21DF2717700B200C0 /* Frameworks */,
+				792B8DA31DF2717700B200C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YCoreBlueTooth;
+			productName = YCoreBlueTooth;
+			productReference = 792B8DA51DF2717700B200C0 /* YCoreBlueTooth.app */;
+			productType = "com.apple.product-type.application";
+		};
+		792B8DBD1DF2717800B200C0 /* YCoreBlueToothTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 792B8DD51DF2717800B200C0 /* Build configuration list for PBXNativeTarget "YCoreBlueToothTests" */;
+			buildPhases = (
+				792B8DBA1DF2717800B200C0 /* Sources */,
+				792B8DBB1DF2717800B200C0 /* Frameworks */,
+				792B8DBC1DF2717800B200C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				792B8DC01DF2717800B200C0 /* PBXTargetDependency */,
+			);
+			name = YCoreBlueToothTests;
+			productName = YCoreBlueToothTests;
+			productReference = 792B8DBE1DF2717800B200C0 /* YCoreBlueToothTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		792B8DC81DF2717800B200C0 /* YCoreBlueToothUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 792B8DD81DF2717800B200C0 /* Build configuration list for PBXNativeTarget "YCoreBlueToothUITests" */;
+			buildPhases = (
+				792B8DC51DF2717800B200C0 /* Sources */,
+				792B8DC61DF2717800B200C0 /* Frameworks */,
+				792B8DC71DF2717800B200C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				792B8DCB1DF2717800B200C0 /* PBXTargetDependency */,
+			);
+			name = YCoreBlueToothUITests;
+			productName = YCoreBlueToothUITests;
+			productReference = 792B8DC91DF2717800B200C0 /* YCoreBlueToothUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		792B8D9D1DF2717700B200C0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = com.yuwentai;
+				TargetAttributes = {
+					792B8DA41DF2717700B200C0 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					792B8DBD1DF2717800B200C0 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 792B8DA41DF2717700B200C0;
+					};
+					792B8DC81DF2717800B200C0 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 792B8DA41DF2717700B200C0;
+					};
+				};
+			};
+			buildConfigurationList = 792B8DA01DF2717700B200C0 /* Build configuration list for PBXProject "YCoreBlueTooth" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 792B8D9C1DF2717700B200C0;
+			productRefGroup = 792B8DA61DF2717700B200C0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				792B8DA41DF2717700B200C0 /* YCoreBlueTooth */,
+				792B8DBD1DF2717800B200C0 /* YCoreBlueToothTests */,
+				792B8DC81DF2717800B200C0 /* YCoreBlueToothUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		792B8DA31DF2717700B200C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				792B8DB81DF2717800B200C0 /* LaunchScreen.storyboard in Resources */,
+				792B8DB51DF2717800B200C0 /* Assets.xcassets in Resources */,
+				792B8DB31DF2717800B200C0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		792B8DBC1DF2717800B200C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		792B8DC71DF2717800B200C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		792B8DA11DF2717700B200C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				792B8DB01DF2717700B200C0 /* ViewController.m in Sources */,
+				792B8DAD1DF2717700B200C0 /* AppDelegate.m in Sources */,
+				792B8DAA1DF2717700B200C0 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		792B8DBA1DF2717800B200C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				792B8DC31DF2717800B200C0 /* YCoreBlueToothTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		792B8DC51DF2717800B200C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				792B8DCE1DF2717800B200C0 /* YCoreBlueToothUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		792B8DC01DF2717800B200C0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 792B8DA41DF2717700B200C0 /* YCoreBlueTooth */;
+			targetProxy = 792B8DBF1DF2717800B200C0 /* PBXContainerItemProxy */;
+		};
+		792B8DCB1DF2717800B200C0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 792B8DA41DF2717700B200C0 /* YCoreBlueTooth */;
+			targetProxy = 792B8DCA1DF2717800B200C0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		792B8DB11DF2717800B200C0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				792B8DB21DF2717800B200C0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		792B8DB61DF2717800B200C0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				792B8DB71DF2717800B200C0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		792B8DD01DF2717800B200C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		792B8DD11DF2717800B200C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		792B8DD31DF2717800B200C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YCoreBlueTooth/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yuwentai.YCoreBlueTooth;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		792B8DD41DF2717800B200C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YCoreBlueTooth/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yuwentai.YCoreBlueTooth;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		792B8DD61DF2717800B200C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = YCoreBlueToothTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yuwentai.YCoreBlueToothTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YCoreBlueTooth.app/YCoreBlueTooth";
+			};
+			name = Debug;
+		};
+		792B8DD71DF2717800B200C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = YCoreBlueToothTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yuwentai.YCoreBlueToothTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YCoreBlueTooth.app/YCoreBlueTooth";
+			};
+			name = Release;
+		};
+		792B8DD91DF2717800B200C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = YCoreBlueToothUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yuwentai.YCoreBlueToothUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YCoreBlueTooth;
+			};
+			name = Debug;
+		};
+		792B8DDA1DF2717800B200C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = YCoreBlueToothUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yuwentai.YCoreBlueToothUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YCoreBlueTooth;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		792B8DA01DF2717700B200C0 /* Build configuration list for PBXProject "YCoreBlueTooth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				792B8DD01DF2717800B200C0 /* Debug */,
+				792B8DD11DF2717800B200C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		792B8DD21DF2717800B200C0 /* Build configuration list for PBXNativeTarget "YCoreBlueTooth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				792B8DD31DF2717800B200C0 /* Debug */,
+				792B8DD41DF2717800B200C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		792B8DD51DF2717800B200C0 /* Build configuration list for PBXNativeTarget "YCoreBlueToothTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				792B8DD61DF2717800B200C0 /* Debug */,
+				792B8DD71DF2717800B200C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		792B8DD81DF2717800B200C0 /* Build configuration list for PBXNativeTarget "YCoreBlueToothUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				792B8DD91DF2717800B200C0 /* Debug */,
+				792B8DDA1DF2717800B200C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 792B8D9D1DF2717700B200C0 /* Project object */;
+}
