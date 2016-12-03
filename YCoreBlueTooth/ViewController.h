@@ -7,9 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "TempBle.h"
+//遵循道理协议方法
+@interface ViewController : UIViewController<TempCenterDelegate>
 
-@interface ViewController : UIViewController
-
-
+@property(nonatomic,retain)TempBle *Manger;
 @end
 

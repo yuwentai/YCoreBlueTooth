@@ -15,6 +15,9 @@
 		792B8DB81DF2717800B200C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 792B8DB61DF2717800B200C0 /* LaunchScreen.storyboard */; };
 		792B8DC31DF2717800B200C0 /* YCoreBlueToothTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 792B8DC21DF2717800B200C0 /* YCoreBlueToothTests.m */; };
 		792B8DCE1DF2717800B200C0 /* YCoreBlueToothUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 792B8DCD1DF2717800B200C0 /* YCoreBlueToothUITests.m */; };
+		792B8DDD1DF2719600B200C0 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 792B8DDC1DF2719600B200C0 /* CoreBluetooth.framework */; };
+		792B8DE21DF271AF00B200C0 /* Pertemp.m in Sources */ = {isa = PBXBuildFile; fileRef = 792B8DDF1DF271AF00B200C0 /* Pertemp.m */; };
+		792B8DE31DF271AF00B200C0 /* TempBle.m in Sources */ = {isa = PBXBuildFile; fileRef = 792B8DE11DF271AF00B200C0 /* TempBle.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,11 @@
 		792B8DC91DF2717800B200C0 /* YCoreBlueToothUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YCoreBlueToothUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		792B8DCD1DF2717800B200C0 /* YCoreBlueToothUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YCoreBlueToothUITests.m; sourceTree = "<group>"; };
 		792B8DCF1DF2717800B200C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		792B8DDC1DF2719600B200C0 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		792B8DDE1DF271AF00B200C0 /* Pertemp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pertemp.h; sourceTree = "<group>"; };
+		792B8DDF1DF271AF00B200C0 /* Pertemp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Pertemp.m; sourceTree = "<group>"; };
+		792B8DE01DF271AF00B200C0 /* TempBle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TempBle.h; sourceTree = "<group>"; };
+		792B8DE11DF271AF00B200C0 /* TempBle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TempBle.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				792B8DDD1DF2719600B200C0 /* CoreBluetooth.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +94,7 @@
 				792B8DC11DF2717800B200C0 /* YCoreBlueToothTests */,
 				792B8DCC1DF2717800B200C0 /* YCoreBlueToothUITests */,
 				792B8DA61DF2717700B200C0 /* Products */,
+				792B8DDB1DF2719600B200C0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,6 +115,10 @@
 				792B8DAC1DF2717700B200C0 /* AppDelegate.m */,
 				792B8DAE1DF2717700B200C0 /* ViewController.h */,
 				792B8DAF1DF2717700B200C0 /* ViewController.m */,
+				792B8DE01DF271AF00B200C0 /* TempBle.h */,
+				792B8DE11DF271AF00B200C0 /* TempBle.m */,
+				792B8DDE1DF271AF00B200C0 /* Pertemp.h */,
+				792B8DDF1DF271AF00B200C0 /* Pertemp.m */,
 				792B8DB11DF2717800B200C0 /* Main.storyboard */,
 				792B8DB41DF2717800B200C0 /* Assets.xcassets */,
 				792B8DB61DF2717800B200C0 /* LaunchScreen.storyboard */,
@@ -138,6 +152,14 @@
 				792B8DCF1DF2717800B200C0 /* Info.plist */,
 			);
 			path = YCoreBlueToothUITests;
+			sourceTree = "<group>";
+		};
+		792B8DDB1DF2719600B200C0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				792B8DDC1DF2719600B200C0 /* CoreBluetooth.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -207,7 +229,8 @@
 				TargetAttributes = {
 					792B8DA41DF2717700B200C0 = {
 						CreatedOnToolsVersion = 8.1;
-						ProvisioningStyle = Automatic;
+						DevelopmentTeam = 6JS3V5L3W2;
+						ProvisioningStyle = Manual;
 					};
 					792B8DBD1DF2717800B200C0 = {
 						CreatedOnToolsVersion = 8.1;
@@ -274,6 +297,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				792B8DB01DF2717700B200C0 /* ViewController.m in Sources */,
+				792B8DE31DF271AF00B200C0 /* TempBle.m in Sources */,
+				792B8DE21DF271AF00B200C0 /* Pertemp.m in Sources */,
 				792B8DAD1DF2717700B200C0 /* AppDelegate.m in Sources */,
 				792B8DAA1DF2717700B200C0 /* main.m in Sources */,
 			);
@@ -424,10 +449,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6JS3V5L3W2;
 				INFOPLIST_FILE = YCoreBlueTooth/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.yuwentai.YCoreBlueTooth;
+				PRODUCT_BUNDLE_IDENTIFIER = comcom.ceceshishi;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "b88576ef-fc86-4c4b-81d8-bb17d100c42c";
+				PROVISIONING_PROFILE_SPECIFIER = zhegeshiceshide;
 			};
 			name = Debug;
 		};
@@ -435,10 +463,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6JS3V5L3W2;
 				INFOPLIST_FILE = YCoreBlueTooth/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.yuwentai.YCoreBlueTooth;
+				PRODUCT_BUNDLE_IDENTIFIER = comcom.ceceshishi;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "b88576ef-fc86-4c4b-81d8-bb17d100c42c";
+				PROVISIONING_PROFILE_SPECIFIER = zhegeshiceshide;
 			};
 			name = Release;
 		};
