@@ -72,8 +72,8 @@ static Pertemp *perM = nil;
 
 //向硬件写入数据 在需要写入数据的界面调用这个方法就可以
 -(void)sendTempData:(NSData *)data{
-
- [self.peripheral writeValue:data forCharacteristic:self.twcharacteristic type:CBCharacteristicWriteWithResponse];
-
+    if (self.twcharacteristic != nil) {
+        [self.peripheral writeValue:data forCharacteristic:self.twcharacteristic type:CBCharacteristicWriteWithResponse];
+    }
 }
 @end
